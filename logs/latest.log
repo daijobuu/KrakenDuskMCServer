@@ -1,69 +1,118 @@
-[22:22:13] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22:22:14] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
-[22:22:16] [Worker-Main-1/INFO]: Loaded 7 recipes
-[22:22:19] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[22:22:19] [Server thread/INFO]: Loading properties
-[22:22:20] [Server thread/INFO]: This server is running Paper version git-Paper-79 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 4b0b725)
-[22:22:20] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:22:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:22:20] [Server thread/INFO]: Default game type: SURVIVAL
-[22:22:20] [Server thread/INFO]: Generating keypair
-[22:22:20] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
-java.io.IOException: The handle is invalid
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
-	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
-	at java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
-	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:111) ~[paper-1.18.1.jar:git-Paper-79]
-	Suppressed: java.io.IOException: The handle is invalid
-		at java.io.FileDescriptor.close0(Native Method) ~[?:?]
-		at java.io.FileDescriptor.close(FileDescriptor.java:297) ~[?:?]
-		at java.io.FileInputStream$1.close(FileInputStream.java:459) ~[?:?]
-		at java.io.FileDescriptor.closeAll(FileDescriptor.java:355) ~[?:?]
-		at java.io.FileInputStream.close(FileInputStream.java:457) ~[?:?]
-		at java.io.BufferedInputStream.close(BufferedInputStream.java:481) ~[?:?]
-		at sun.nio.cs.StreamDecoder.implClose(StreamDecoder.java:366) ~[?:?]
-		at sun.nio.cs.StreamDecoder.close(StreamDecoder.java:204) ~[?:?]
-		at java.io.InputStreamReader.close(InputStreamReader.java:192) ~[?:?]
-		at java.io.BufferedReader.close(BufferedReader.java:525) ~[?:?]
-		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:183) ~[terminalconsoleappender-1.3.0.jar:?]
-		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
-		at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:111) ~[paper-1.18.1.jar:git-Paper-79]
-[22:22:20] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:22:20] [Server thread/INFO]: Using default channel type
-[22:22:20] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[22:22:20] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[22:22:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:22:21] [Server thread/INFO]: Preparing level "world"
-[22:22:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:22:23] [Server thread/INFO]: Time elapsed: 362 ms
-[22:22:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[22:22:24] [Server thread/INFO]: Time elapsed: 170 ms
-[22:22:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[22:22:24] [Server thread/INFO]: Time elapsed: 140 ms
-[22:22:24] [Server thread/INFO]: Running delayed init tasks
-[22:22:24] [Server thread/INFO]: Done (4.469s)! For help, type "help"
-[22:22:24] [Server thread/INFO]: Timings Reset
-[22:22:48] [Server thread/INFO]: Stopping the server
-[22:22:48] [Server thread/INFO]: Stopping server
-[22:22:48] [Server thread/INFO]: Saving players
-[22:22:48] [Server thread/INFO]: Saving worlds
-[22:22:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:22:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[22:22:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[22:22:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:22:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:22:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:22:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:22:56] [Server thread/INFO]: Flushing Chunk IO
-[22:22:56] [Server thread/INFO]: Closing Thread Pool
-[22:22:56] [Server thread/INFO]: Closing Server
+[01:09:09] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:09:10] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[01:09:10] [Worker-Main-1/INFO]: Loaded 7 recipes
+[01:09:12] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[01:09:12] [Server thread/WARN]: ****************************
+[01:09:12] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[01:09:12] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[01:09:12] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[01:09:12] [Server thread/WARN]: ****************************
+[01:09:12] [Server thread/INFO]: Loading properties
+[01:09:12] [Server thread/INFO]: This server is running Paper version git-Paper-134 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 55a1756)
+[01:09:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:09:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:09:12] [Server thread/INFO]: Default game type: SURVIVAL
+[01:09:12] [Server thread/INFO]: Generating keypair
+[01:09:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:09:12] [Server thread/INFO]: Using epoll channel type
+[01:09:12] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[01:09:12] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[01:09:13] [Server thread/INFO]: [SpigotPing] Loading SpigotPing v2.6
+[01:09:13] [Server thread/INFO]: [HeadsPlus] Loading HeadsPlus v7.0.2
+[01:09:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:09:13] [Server thread/INFO]: Preparing level "world"
+[01:09:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:09:15] [Server thread/INFO]: Preparing spawn area: 0%
+[01:09:15] [Server thread/INFO]: Preparing spawn area: 0%
+[01:09:15] [Server thread/INFO]: Preparing spawn area: 0%
+[01:09:16] [Server thread/INFO]: Preparing spawn area: 0%
+[01:09:16] [Server thread/INFO]: Preparing spawn area: 0%
+[01:09:17] [Server thread/INFO]: Preparing spawn area: 0%
+[01:09:17] [Server thread/INFO]: Time elapsed: 2754 ms
+[01:09:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:09:17] [Server thread/INFO]: Preparing spawn area: 0%
+[01:09:18] [Server thread/INFO]: Preparing spawn area: 0%
+[01:09:18] [Server thread/INFO]: Preparing spawn area: 0%
+[01:09:19] [Server thread/INFO]: Preparing spawn area: 0%
+[01:09:19] [Server thread/INFO]: Preparing spawn area: 0%
+[01:09:19] [Server thread/INFO]: Time elapsed: 2144 ms
+[01:09:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:09:19] [Server thread/INFO]: Preparing spawn area: 0%
+[01:09:20] [Server thread/INFO]: Preparing spawn area: 0%
+[01:09:20] [Server thread/INFO]: Preparing spawn area: 0%
+[01:09:20] [Server thread/INFO]: Time elapsed: 1076 ms
+[01:09:20] [Server thread/INFO]: [SpigotPing] Enabling SpigotPing v2.6
+[01:09:20] [Server thread/INFO]: [SpigotPing] TabList is enabled, task added with a delay of 5 second/s.
+[01:09:20] [Server thread/INFO]: [HeadsPlus] Enabling HeadsPlus v7.0.2
+[01:09:20] [Server thread/WARN]: [HeadsPlus] Sellhead disabled due to Vault itself not being found. (Error code: 1)
+[01:09:21] [Server thread/INFO]: [HeadsPlus] Registered 418 heads.
+[01:09:21] [Server thread/INFO]: [HeadsPlus] Registered 3 masks.
+[01:09:21] [Server thread/INFO]: HeadsPlus »  HeadsPlus has been enabled!
+[01:09:21] [Server thread/INFO]:     __  __               __     ____  __                   _____
+[01:09:21] [Server thread/INFO]:    / / / /__  ____ _____/ /____/ __ \/ /_  _______   _   _/__  /
+[01:09:21] [Server thread/INFO]:   / /_/ / _ \/ __ `/ __  / ___/ /_/ / / / / / ___/  | | / / / / 
+[01:09:21] [Server thread/INFO]:  / __  /  __/ /_/ / /_/ /__  / ____/ / /_/ /__  /   | |/ / / /  
+[01:09:21] [Server thread/INFO]: /_/ /_/\___/\__,_/\__,_/____/_/   /_/\__,_/____/    |___/ /_/  
+[01:09:21] [Server thread/INFO]:                                                                 
+[01:09:21] [Server thread/INFO]: HeadsPlus 7.0.2 has been enabled successfully!
+[01:09:21] [Server thread/INFO]: 
+[01:09:22] [Server thread/INFO]: Running delayed init tasks
+[01:09:22] [Server thread/INFO]: Done (9.736s)! For help, type "help"
+[01:09:22] [Server thread/INFO]: Timings Reset
+[01:09:22] [Craft Scheduler Thread - 2 - HeadsPlus/INFO]: [HeadsPlus] Registered 1 rewards.
+[01:09:22] [Craft Scheduler Thread - 2 - HeadsPlus/INFO]: [HeadsPlus] Registered 36 levels.
+[01:09:22] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/43, uuid='f2310100-de4b-4566-a368-4a9becd7d6d6', l='ServerLevel[world]', x=-522.48, y=70.00, z=-477.59, cpos=[-33, -30], tl=1252868, v=false]
+[01:09:22] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/59, uuid='6dbbf088-bc9f-4a72-963e-edad55e766c2', l='ServerLevel[world]', x=-532.50, y=67.00, z=-439.52, cpos=[-34, -28], tl=1366355, v=false]
+[01:09:23] [Craft Scheduler Thread - 1 - HeadsPlus/INFO]: HeadsPlus »  Current version: 7.0.2
+HeadsPlus »  New version: 7.0.3
+HeadsPlus »  Description: Bugfixes
+[01:09:23] [Craft Scheduler Thread - 1 - HeadsPlus/INFO]: [HeadsPlus] Download link: https://www.spigotmc.org/resources/headsplus-1-8-x-1-12-x.40265/
+[01:09:23] [Server thread/INFO]: [HeadsPlus] Avengers, assemble!
+[01:09:26] [User Authenticator #1/INFO]: UUID of player Naoblanc is cf0bc61f-7ebe-4c2d-8fd0-46df46be046b
+[01:09:26] [Server thread/INFO]: Naoblanc joined the game
+[01:09:26] [Server thread/INFO]: Naoblanc[/36.90.32.165:56370] logged in with entity id 178 at ([world]-548.1939306938748, 72.0, 623.1623530824892)
+[01:09:27] [Server thread/WARN]: UUID of added entity already exists: EntityHorse['Horse'/249, uuid='3a0b43b7-ea08-4a41-9e60-332dd61d5c2b', l='ServerLevel[world]', x=-538.69, y=72.00, z=624.16, cpos=[-34, 39], tl=3633919, v=false]
+[01:09:27] [Server thread/WARN]: UUID of added entity already exists: EntityChicken['Chicken'/279, uuid='b50400a5-e9b3-4323-92ba-b5b5bf5cd447', l='ServerLevel[world]', x=-491.93, y=81.00, z=615.50, cpos=[-31, 38], tl=716259, v=false]
+[01:09:28] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/323, uuid='4c619b76-6b16-412d-8bf3-ebe34e668dda', l='ServerLevel[world]', x=-663.65, y=78.00, z=709.85, cpos=[-42, 44], tl=2200494, v=false]
+[01:09:28] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/357, uuid='4c619b76-6b16-412d-8bf3-ebe34e668dda', l='ServerLevel[world]', x=-656.67, y=81.00, z=738.85, cpos=[-42, 46], tl=1983586, v=false]
+[01:09:29] [Server thread/WARN]: UUID of added entity already exists: EntitySheep['Sheep'/376, uuid='6cecf97d-59dd-4423-8702-e1495d5abef7', l='ServerLevel[world]', x=-391.82, y=64.00, z=661.75, cpos=[-25, 41], tl=1234544, v=false]
+[01:09:32] [User Authenticator #1/INFO]: UUID of player somii_ is 0a58aa1b-baec-410a-bdd6-33325d1c236d
+[01:09:32] [Server thread/INFO]: somii_ joined the game
+[01:09:32] [Server thread/INFO]: somii_[/86.100.126.59:64825] logged in with entity id 423 at ([world]-574.9783370562486, 71.1875, 571.6999999880791)
+[01:09:33] [Server thread/WARN]: UUID of added entity already exists: EntityChicken['Chicken'/440, uuid='d5537db1-7c3d-47b6-83d2-76d0cffdace5', l='ServerLevel[world]', x=-756.54, y=67.00, z=445.08, cpos=[-48, 27], tl=772983, v=false]
+[01:09:39] [User Authenticator #1/INFO]: UUID of player TheObligedDipta is 547bd784-a044-433a-8a7b-d1d5dd2572f1
+[01:09:40] [Server thread/INFO]: TheObligedDipta joined the game
+[01:09:40] [Server thread/INFO]: TheObligedDipta[/8.34.69.79:54856] logged in with entity id 449 at ([world]-1294.3030044539132, 53.5, -306.1797296427957)
+[01:09:41] [Async Chat Thread - #0/INFO]: <Naoblanc> Wellll then that's new
+[01:09:43] [User Authenticator #1/INFO]: UUID of player Muttly_Martin is 2e30b2a7-cdc5-4d46-833e-cac15272fe46
+[01:09:43] [Server thread/INFO]: Muttly_Martin joined the game
+[01:09:43] [Server thread/INFO]: Muttly_Martin[/82.26.225.7:49809] logged in with entity id 709 at ([world]-639.4898515243685, 68.5, -445.1766597554006)
+[01:09:46] [Server thread/INFO]: Muttly_Martin lost connection: Disconnected
+[01:09:46] [Server thread/INFO]: Muttly_Martin left the game
+[01:09:48] [Async Chat Thread - #0/INFO]: <Naoblanc> it duplicated my things
+[01:10:12] [Async Chat Thread - #0/INFO]: <Naoblanc> Oh everybody left, how funny
+[01:11:21] [Server thread/INFO]: somii_ lost connection: Disconnected
+[01:11:21] [Server thread/INFO]: somii_ left the game
+[01:15:03] [Async Chat Thread - #1/INFO]: <Naoblanc> sorry bout that, I was called if ya were talking to me
+[01:21:17] [Async Chat Thread - #2/INFO]: <Naoblanc> ok
+[01:21:36] [Async Chat Thread - #2/INFO]: <Naoblanc> good morning and bai dip
+[01:21:41] [Server thread/INFO]: TheObligedDipta lost connection: Disconnected
+[01:21:41] [Server thread/INFO]: TheObligedDipta left the game
+[01:45:20] [Server thread/WARN]: UUID of added entity already exists: EntityEnderman['Enderman'/5545, uuid='f2a8172e-ffec-4330-a3a5-2c51bbf6de79', l='ServerLevel[world]', x=-788.22, y=77.00, z=724.68, cpos=[-50, 45], tl=14577, v=false]
+[01:45:20] [Server thread/WARN]: UUID of added entity already exists: EntityCreeper['Creeper'/5557, uuid='7f663ca3-f052-465a-aa2c-63301214d13b', l='ServerLevel[world]', x=-785.39, y=53.00, z=658.02, cpos=[-50, 41], tl=834, v=false]
+[01:45:25] [Server thread/WARN]: UUID of added entity already exists: EntityChicken['Chicken'/5580, uuid='e26826d6-f7a5-4b04-a6e3-77b9a8619a51', l='ServerLevel[world]', x=-801.62, y=72.04, z=505.23, cpos=[-51, 31], tl=612308, v=false]
+[01:48:59] [Server thread/WARN]: Dingir (vehicle of Naoblanc) moved wrongly! 0.26116529846399317
+[01:48:59] [Server thread/WARN]: Dingir (vehicle of Naoblanc) moved wrongly! 0.6872949262383372
+[01:48:59] [Server thread/WARN]: Dingir (vehicle of Naoblanc) moved wrongly! 1.1032790561712318
+[01:49:00] [Server thread/WARN]: Dingir (vehicle of Naoblanc) moved wrongly! 1.4463741675194797
+[01:49:00] [Server thread/WARN]: Dingir (vehicle of Naoblanc) moved wrongly! 1.642680667161585
+[01:49:00] [Server thread/WARN]: Dingir (vehicle of Naoblanc) moved wrongly! 1.7373653101916087
+[01:49:00] [Server thread/WARN]: Dingir (vehicle of Naoblanc) moved wrongly! 1.8317207674192875
+[02:22:47] [Server thread/INFO]: Naoblanc lost connection: Disconnected
+[02:22:47] [Server thread/INFO]: Naoblanc left the game
+[06:37:19] [User Authenticator #2/INFO]: UUID of player Naoblanc is cf0bc61f-7ebe-4c2d-8fd0-46df46be046b
+[06:37:20] [Server thread/INFO]: Naoblanc joined the game
+[06:37:20] [Server thread/INFO]: Naoblanc[/36.90.32.165:60914] logged in with entity id 13819 at ([world]-546.9092600607188, 72.0, 621.9800455499275)
+[07:18:56] [Server thread/INFO]: Naoblanc has made the advancement [Local Brewery]
+[07:21:49] [Server thread/INFO]: Naoblanc lost connection: Disconnected
+[07:21:49] [Server thread/INFO]: Naoblanc left the game

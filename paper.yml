@@ -1,10 +1,10 @@
 # This is the main configuration file for Paper.
 # As you can see, there's tons to configure. Some options may impact gameplay, so use
 # with caution, and make sure you know what each option does before configuring.
-# 
+#
 # If you need help with the configuration or have any questions related to Paper,
 # join us in our Discord or IRC channel.
-# 
+#
 # Discord: https://discord.gg/papermc
 # IRC: #paper @ irc.esper.net ( https://webchat.esper.net/?channels=paper ) 
 # Website: https://papermc.io/ 
@@ -33,6 +33,7 @@ timings:
   server-name: Unknown Server
 config-version: 24
 settings:
+  fix-target-selector-tag-completion: true
   send-full-pos-for-hard-colliding-entities: true
   track-plugin-scoreboards: false
   fix-entity-position-desync: true
@@ -80,6 +81,7 @@ settings:
     page-max: 2560
     total-multiplier: 0.98
   unsupported-settings:
+    perform-username-validation: true
     allow-permanent-block-break-exploits: false
     allow-piston-duplication: false
     allow-headless-pistons: false
@@ -105,6 +107,7 @@ settings:
         action: DROP
 world-settings:
   default:
+    monster-spawn-max-light-level: -1
     game-mechanics:
       nerf-pigmen-from-nether-portals: false
       disable-relative-projectile-velocity: false
