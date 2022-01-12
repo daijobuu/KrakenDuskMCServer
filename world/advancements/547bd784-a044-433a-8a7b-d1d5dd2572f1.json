@@ -41,6 +41,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2022-01-11 20:00:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2021-12-19 16:42:22 +0000"
@@ -320,6 +326,12 @@
   "minecraft:recipes/tools/netherite_hoe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2021-12-31 21:15:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2022-01-11 21:00:11 +0000"
     },
     "done": true
   },
@@ -752,6 +764,12 @@
   "minecraft:recipes/decorations/birch_sign": {
     "criteria": {
       "has_planks": "2022-01-07 21:17:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab": {
+    "criteria": {
+      "has_smooth_quartz": "2022-01-11 21:00:11 +0000"
     },
     "done": true
   },
@@ -1284,6 +1302,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2022-01-10 19:50:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blackstone_stairs": {
     "criteria": {
       "has_blackstone": "2021-12-31 20:35:47 +0000"
@@ -1755,6 +1779,7 @@
       "minecraft:frozen_ocean": "2021-12-23 18:06:22 +0000",
       "minecraft:desert": "2021-12-19 14:29:32 +0000",
       "minecraft:deep_frozen_ocean": "2021-12-24 18:00:41 +0000",
+      "minecraft:windswept_forest": "2022-01-10 22:25:21 +0000",
       "minecraft:ocean": "2021-12-20 17:32:00 +0000",
       "minecraft:jungle": "2022-01-01 21:21:22 +0000",
       "minecraft:old_growth_spruce_taiga": "2021-12-23 18:41:53 +0000",
@@ -1915,6 +1940,12 @@
   "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
     "criteria": {
       "has_polished_andesite": "2021-12-27 18:42:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2022-01-10 21:59:12 +0000"
     },
     "done": true
   },
@@ -2457,6 +2488,12 @@
   "minecraft:recipes/building_blocks/smooth_sandstone_slab_from_smooth_sandstone_stonecutting": {
     "criteria": {
       "has_smooth_sandstone": "2021-12-22 12:58:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2022-01-11 20:00:39 +0000"
     },
     "done": true
   },
@@ -3573,6 +3610,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs": {
+    "criteria": {
+      "has_smooth_quartz": "2022-01-11 21:00:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/dropper": {
     "criteria": {
       "has_redstone": "2021-12-19 17:05:19 +0000"
@@ -3690,6 +3733,12 @@
   "minecraft:recipes/food/cooked_beef": {
     "criteria": {
       "has_beef": "2021-12-20 14:30:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2022-01-11 21:00:11 +0000"
     },
     "done": true
   },

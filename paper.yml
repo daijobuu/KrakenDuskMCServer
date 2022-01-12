@@ -33,6 +33,7 @@ timings:
   server-name: Unknown Server
 config-version: 24
 settings:
+  time-command-affects-all-worlds: false
   fix-target-selector-tag-completion: true
   send-full-pos-for-hard-colliding-entities: true
   track-plugin-scoreboards: false
@@ -107,6 +108,9 @@ settings:
         action: DROP
 world-settings:
   default:
+    wateranimal-spawn-height:
+      maximum: default
+      minimum: default
     monster-spawn-max-light-level: -1
     game-mechanics:
       nerf-pigmen-from-nether-portals: false

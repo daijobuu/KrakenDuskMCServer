@@ -1,0 +1,105 @@
+[04:33:50] [Server thread/INFO]: Naoblanc joined the game
+[04:33:50] [Server thread/INFO]: Naoblanc[/36.90.32.165:54358] logged in with entity id 2574 at ([world]-551.606412226674, 79.0, 627.6124060400501)
+[05:07:40] [Server thread/INFO]: There are 1 of a max of 10 players online: Naoblanc
+[05:07:52] [Server thread/INFO]: [Server] playing alone again hu
+[05:08:22] [Server thread/INFO]: [Server] the server auto-starts if it crashes so have fun :v
+[05:09:53] [Server thread/INFO]: There are 1 of a max of 10 players online: Naoblanc
+[05:14:23] [Server thread/INFO]: There are 1 of a max of 10 players online: Naoblanc
+[05:14:59] [Server thread/INFO]: Gave 1 [Rotten Flesh] to Naoblanc
+[05:21:40] [Async Chat Thread - #0/INFO]: <Naoblanc> Nice
+[05:33:08] [Server thread/INFO]: [Server] btw, you dont care for the nether do you? i was thinking of resetting the nether cause it crashes everytime i go to the nether
+[05:33:22] [Server thread/INFO]: There are 1 of a max of 10 players online: Naoblanc
+[05:33:46] [Async Chat Thread - #1/INFO]: <Naoblanc> Ah sure, reset it. May improve my chances on getting ancient debris
+[05:33:59] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:34:21] [Async Chat Thread - #1/INFO]: <Naoblanc> Though by resetting it, would the things people build there go poof from existence?
+[05:34:31] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:34:36] [Server thread/INFO]: [Server] in nether ? yes
+[05:34:45] [Async Chat Thread - #1/INFO]: <Naoblanc> Cause There's that blaze farm thing and all
+[05:35:08] [Async Chat Thread - #1/INFO]: <Naoblanc> Might have to ask a few before resetting it, I personally am fine with it but do ask the others
+[05:35:18] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:35:27] [Server thread/INFO]: [Server] its fine, ahh try to use ur portal and see if it crahes
+[05:35:32] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:35:33] [Async Chat Thread - #1/INFO]: <Naoblanc> aye
+[05:35:38] [Server thread/INFO]: [Server] none goes to nether
+[05:36:26] [Async Chat Thread - #1/INFO]: <Naoblanc> Nay, it didn't crash
+[05:36:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5841ms or 116 ticks behind
+[05:37:11] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:37:16] [Server thread/INFO]: [Server] its lagging
+[05:37:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8623ms or 172 ticks behind
+[05:37:27] [Server thread/INFO]: [Server] lmao
+[05:37:36] [Async Chat Thread - #2/INFO]: <Naoblanc> Quite, yes, but didn't crash for some reason
+[05:37:54] [Server thread/INFO]: [Server] probably cause ur alone
+[05:38:11] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[05:38:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5548ms or 110 ticks behind
+[05:39:11] [Async Chat Thread - #3/INFO]: <Naoblanc> Mayhaps, but yeah so far all it does is cause some great lag for me
+[05:39:33] [Server thread/WARN]: Naoblanc was kicked due to keepalive timeout!
+[05:43:53] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-145 (MC: 1.18.1) ---
+[05:45:19] [Server thread/INFO]: Naoblanc lost connection: Timed out
+[05:46:17] [Server thread/INFO]: Naoblanc left the game
+[05:46:19] [Paper Watchdog Thread/ERROR]: The server has not responded for -16 seconds! Creating thread dump
+[05:46:20] [Paper Watchdog Thread/ERROR]: ------------------------------
+[05:46:21] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[05:46:32] [Server thread/INFO]: [Server] il come too
+[05:49:58] [Paper Watchdog Thread/ERROR]: ------------------------------
+[05:49:59] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[05:52:08] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: RUNNABLE
+[05:52:12] [Paper Watchdog Thread/ERROR]: 	Stack:
+[05:53:36] [Server thread/INFO]: com.mojang.authlib.GameProfile@4afdf7dd[id=<null>,name=Naoblanc,properties={},legacy=false] (/36.90.32.165:23585) lost connection: Disconnected
+[05:53:36] [User Authenticator #3/INFO]: Disconnecting com.mojang.authlib.GameProfile@5b7a5b0a[id=<null>,name=Naoblanc,properties={},legacy=false] (/36.90.32.165:23763): Authentication servers are down. Please try again later, sorry!
+[05:53:39] [User Authenticator #3/ERROR]: Couldn't verify username because servers are unavailable
+[05:53:59] [Server thread/INFO]: com.mojang.authlib.GameProfile@57cff7f0[id=<null>,name=Naoblanc,properties={},legacy=false] (/36.90.32.165:23623) lost connection: Disconnected
+[05:54:12] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.ClassLoader.defineClass0(Native Method)
+[05:54:13] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.System$2.defineClass(System.java:2307)
+[05:54:15] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(MethodHandles.java:2439)
+[05:54:16] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.InvokerBytecodeGenerator.loadMethod(InvokerBytecodeGenerator.java:320)
+[05:54:18] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.InvokerBytecodeGenerator.generateCustomizedCode(InvokerBytecodeGenerator.java:751)
+[05:54:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.LambdaForm.compileToBytecode(LambdaForm.java:854)
+[05:54:22] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.LambdaForm.prepare(LambdaForm.java:812)
+[05:54:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.MethodHandle.<init>(MethodHandle.java:481)
+[05:54:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.BoundMethodHandle.<init>(BoundMethodHandle.java:56)
+[05:54:29] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.BoundMethodHandle$Species_LLL.<init>(java/lang/invoke/BoundMethodHandle$Species_LLL)
+[05:54:31] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.BoundMethodHandle$Species_LLL.make(java/lang/invoke/BoundMethodHandle$Species_LLL)
+[05:54:32] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+[05:54:35] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.BoundMethodHandle$Species_LL.copyWithExtendL(java/lang/invoke/BoundMethodHandle$Species_LL)
+[05:54:38] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.MethodHandles.argumentsWithCombiner(MethodHandles.java:6151)
+[05:54:39] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.MethodHandles.filterArgumentsWithCombiner(MethodHandles.java:6108)
+[05:54:40] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.StringConcatFactory.generateMHInlineCopy(StringConcatFactory.java:541)
+[05:54:42] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.StringConcatFactory.makeConcatWithConstants(StringConcatFactory.java:358)
+[05:54:43] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
+[05:54:45] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.DelegatingMethodHandle$Holder.delegate(DelegatingMethodHandle$Holder)
+[05:54:46] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+[05:54:46] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:102)
+[05:54:46] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.CallSite.makeSite(CallSite.java:315)
+[05:54:46] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:281)
+[05:54:46] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:271)
+[05:54:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.getUserName(ServerLoginPacketListenerImpl.java:229)
+[05:54:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerLoginPacketListenerImpl.onDisconnect(ServerLoginPacketListenerImpl.java:223)
+[05:54:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.Connection.handleDisconnection(Connection.java:714)
+[05:54:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:221)
+[05:54:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1636)
+[05:54:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:480)
+[05:54:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1470)
+[05:54:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264)
+[05:54:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+[05:54:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$3944/0x0000000801430b00.run(Unknown Source)
+[05:54:46] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+[05:54:46] [Paper Watchdog Thread/ERROR]: ------------------------------
+[05:54:46] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[05:54:46] [Paper Watchdog Thread/ERROR]: ------------------------------
+[05:54:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@5b7a5b0a[id=<null>,name=Naoblanc,properties={},legacy=false] (/36.90.32.165:23763) lost connection: Disconnected
+[05:54:58] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-145 (MC: 1.18.1) ---
+[05:55:02] [Paper Watchdog Thread/ERROR]: The server has not responded for 0 seconds! Creating thread dump
+[05:55:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[05:55:05] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[05:55:23] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:villager, entity class: net.minecraft.world.entity.npc.EntityVillager
+[06:00:39] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[06:00:47] [Paper Watchdog Thread/ERROR]: Entity UUID: 40f35de6-170c-4296-8521-a25deb0ae023
+[06:01:59] [Thread-0/INFO]: Stopping main thread (Ignore any thread death message you see! - DO NOT REPORT THREAD DEATH TO PAPER)
+[06:02:45] [Thread-0/INFO]: Stopping server
+[06:02:45] [Thread-0/INFO]: Saving players
+[06:02:45] [Thread-0/INFO]: Saving worlds
+[06:02:45] [Thread-0/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:02:45] [Paper Watchdog Thread/WARN]: Exception in thread "Paper Watchdog Thread" java.lang.NullPointerException: Cannot invoke "java.lang.management.ThreadInfo.getThreadName()" because "thread" is null
+[06:02:45] [Paper Watchdog Thread/WARN]: 	at org.spigotmc.WatchdogThread.dumpThread(WatchdogThread.java:255)
+[06:02:45] [Paper Watchdog Thread/WARN]: 	at org.spigotmc.WatchdogThread.run(WatchdogThread.java:197)
+[06:02:46] [Thread-0/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
