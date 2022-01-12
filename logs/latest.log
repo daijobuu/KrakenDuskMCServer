@@ -1,89 +1,81 @@
-[06:30:31] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[06:30:32] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
-[06:30:32] [Worker-Main-1/INFO]: Loaded 7 recipes
-[06:30:34] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[06:30:34] [Server thread/WARN]: ****************************
-[06:30:34] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[06:30:34] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[06:30:34] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[06:30:34] [Server thread/WARN]: ****************************
-[06:30:34] [Server thread/INFO]: Loading properties
-[06:30:34] [Server thread/INFO]: This server is running Paper version git-Paper-145 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 3ea224d)
-[06:30:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[06:30:34] [Server thread/INFO]: Using 4 threads for Netty based IO
-[06:30:34] [Server thread/INFO]: Default game type: SURVIVAL
-[06:30:34] [Server thread/INFO]: Generating keypair
-[06:30:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[06:30:34] [Server thread/INFO]: Using epoll channel type
-[06:30:34] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[06:30:34] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[06:30:35] [Server thread/INFO]: [SpigotPing] Loading SpigotPing v2.6
-[06:30:35] [Server thread/INFO]: [HeadsPlus] Loading HeadsPlus v7.0.3
-[06:30:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[06:30:35] [Server thread/INFO]: Preparing level "world"
-[06:30:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[06:30:36] [Server thread/INFO]: Preparing spawn area: 0%
-[06:30:36] [Server thread/INFO]: Preparing spawn area: 0%
-[06:30:37] [Server thread/INFO]: Preparing spawn area: 0%
-[06:30:37] [Server thread/INFO]: Preparing spawn area: 0%
-[06:30:38] [Server thread/INFO]: Preparing spawn area: 0%
-[06:30:38] [Server thread/INFO]: Time elapsed: 2186 ms
-[06:30:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[06:30:38] [Server thread/INFO]: Preparing spawn area: 0%
-[06:30:38] [Server thread/INFO]: Preparing spawn area: 0%
-[06:30:39] [Server thread/INFO]: Preparing spawn area: 0%
-[06:30:39] [Server thread/INFO]: Preparing spawn area: 0%
-[06:30:40] [Server thread/INFO]: Time elapsed: 1758 ms
-[06:30:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[06:30:40] [Server thread/INFO]: Preparing spawn area: 0%
-[06:30:40] [Server thread/INFO]: Preparing spawn area: 0%
-[06:30:41] [Server thread/INFO]: Time elapsed: 984 ms
-[06:30:41] [Server thread/INFO]: [SpigotPing] Enabling SpigotPing v2.6
-[06:30:41] [Server thread/INFO]: [SpigotPing] TabList is enabled, task added with a delay of 5 second/s.
-[06:30:41] [Server thread/INFO]: [HeadsPlus] Enabling HeadsPlus v7.0.3
-[06:30:41] [Server thread/WARN]: [HeadsPlus] Sellhead disabled due to Vault itself not being found. (Error code: 1)
-[06:30:42] [Server thread/INFO]: [HeadsPlus] Registered 418 heads.
-[06:30:42] [Server thread/INFO]: [HeadsPlus] Registered 3 masks.
-[06:30:42] [Server thread/INFO]: HeadsPlus »  HeadsPlus has been enabled!
-[06:30:42] [Server thread/INFO]:     __  __               __     ____  __                   _____
-[06:30:42] [Server thread/INFO]:    / / / /__  ____ _____/ /____/ __ \/ /_  _______   _   _/__  /
-[06:30:42] [Server thread/INFO]:   / /_/ / _ \/ __ `/ __  / ___/ /_/ / / / / / ___/  | | / / / / 
-[06:30:42] [Server thread/INFO]:  / __  /  __/ /_/ / /_/ /__  / ____/ / /_/ /__  /   | |/ / / /  
-[06:30:42] [Server thread/INFO]: /_/ /_/\___/\__,_/\__,_/____/_/   /_/\__,_/____/    |___/ /_/  
-[06:30:42] [Server thread/INFO]:                                                                 
-[06:30:42] [Server thread/INFO]: HeadsPlus 7.0.3 has been enabled successfully!
-[06:30:42] [Server thread/INFO]: 
-[06:30:42] [Server thread/INFO]: Running delayed init tasks
-[06:30:42] [Server thread/INFO]: Done (8.017s)! For help, type "help"
-[06:30:42] [Server thread/INFO]: Timings Reset
-[06:30:42] [Craft Scheduler Thread - 2 - HeadsPlus/INFO]: [HeadsPlus] Registered 1 rewards.
-[06:30:42] [Craft Scheduler Thread - 2 - HeadsPlus/INFO]: [HeadsPlus] Registered 36 levels.
-[06:30:43] [Craft Scheduler Thread - 1 - HeadsPlus/INFO]: [HeadsPlus] HeadsPlus »  Plugin is up to date!
-[06:30:43] [Server thread/INFO]: [HeadsPlus] Avengers, assemble!
-[06:34:06] [User Authenticator #1/INFO]: UUID of player Naoblanc is cf0bc61f-7ebe-4c2d-8fd0-46df46be046b
-[06:34:06] [Server thread/INFO]: Naoblanc joined the game
-[06:34:06] [Server thread/INFO]: Naoblanc[/36.90.32.165:24157] logged in with entity id 146 at ([world_nether]-82.48455163186478, 40.0, 109.45542602656448)
-[06:36:27] [User Authenticator #2/INFO]: UUID of player TheObligedDipta is 547bd784-a044-433a-8a7b-d1d5dd2572f1
-[06:36:28] [Server thread/INFO]: TheObligedDipta joined the game
-[06:36:28] [Server thread/INFO]: TheObligedDipta[/27.5.129.180:62568] logged in with entity id 1184 at ([world_nether]-148.30000001192093, 49.0, -29.30000001192093)
-[06:37:51] [Async Chat Thread - #0/INFO]: <TheObligedDipta> the fak is worng with the game
-[06:37:54] [Async Chat Thread - #0/INFO]: <TheObligedDipta> crash mofo
-[06:37:58] [Async Chat Thread - #0/INFO]: <Naoblanc> I dunno
-[06:38:45] [Async Chat Thread - #0/INFO]: <TheObligedDipta> ugh, i need the crash log
-[06:44:16] [Async Chat Thread - #1/INFO]: <Naoblanc> this server is just wack, when we don't want it to crash it crashes, when we want it to crash it doesn't crash
-[06:46:00] [Async Chat Thread - #2/INFO]: <TheObligedDipta> lame
-[06:46:12] [Async Chat Thread - #2/INFO]: <TheObligedDipta> it not overloading
-[06:46:45] [Async Chat Thread - #2/INFO]: <TheObligedDipta> wanted to try to fix this beefore people join at night
-[06:47:12] [Async Chat Thread - #2/INFO]: <Naoblanc> mm
-[06:47:23] [Async Chat Thread - #2/INFO]: <Naoblanc> How do we even force this server to overload
-[06:47:43] [Async Chat Thread - #2/INFO]: <TheObligedDipta> usually if i go to the nether it crashes after some time
-[06:48:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21367ms or 427 ticks behind
-[06:49:17] [Server thread/WARN]: Naoblanc was kicked due to keepalive timeout!
-[06:49:22] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-145 (MC: 1.18.1) ---
-[06:50:08] [Paper Watchdog Thread/ERROR]: The server has not responded for -8 seconds! Creating thread dump
-[06:50:12] [Async Chat Thread - #3/INFO]: <Naoblanc> Oh?
-[06:50:12] [Paper Watchdog Thread/ERROR]: ------------------------------
-[06:50:15] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[06:53:19] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
-[06:53:43] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[06:53:56] [Paper Watchdog Thread/ERROR]: Entity UUID: cf0bc61f-7ebe-4c2d-8fd0-46df46be046b
+[07:48:33] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07:48:33] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[07:48:34] [Worker-Main-1/INFO]: Loaded 7 recipes
+[07:48:36] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[07:48:36] [Server thread/WARN]: ****************************
+[07:48:36] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[07:48:36] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[07:48:36] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[07:48:36] [Server thread/WARN]: ****************************
+[07:48:36] [Server thread/INFO]: Loading properties
+[07:48:36] [Server thread/INFO]: This server is running Paper version git-Paper-145 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: 3ea224d)
+[07:48:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:48:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:48:36] [Server thread/INFO]: Default game type: SURVIVAL
+[07:48:36] [Server thread/INFO]: Generating keypair
+[07:48:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:48:37] [Server thread/INFO]: Using epoll channel type
+[07:48:37] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:48:37] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[07:48:38] [Server thread/INFO]: [SpigotPing] Loading SpigotPing v2.6
+[07:48:38] [Server thread/INFO]: [HeadsPlus] Loading HeadsPlus v7.0.3
+[07:48:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:48:38] [Server thread/INFO]: Preparing level "world"
+[07:48:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:48:39] [Server thread/INFO]: Preparing spawn area: 0%
+[07:48:39] [Server thread/INFO]: Preparing spawn area: 0%
+[07:48:40] [Server thread/INFO]: Preparing spawn area: 0%
+[07:48:40] [Server thread/INFO]: Preparing spawn area: 0%
+[07:48:41] [Server thread/INFO]: Preparing spawn area: 0%
+[07:48:41] [Server thread/INFO]: Time elapsed: 2294 ms
+[07:48:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:48:41] [Server thread/INFO]: Preparing spawn area: 0%
+[07:48:41] [Server thread/INFO]: Preparing spawn area: 0%
+[07:48:42] [Server thread/INFO]: Preparing spawn area: 0%
+[07:48:42] [Server thread/INFO]: Preparing spawn area: 0%
+[07:48:43] [Server thread/INFO]: Preparing spawn area: 0%
+[07:48:43] [Server thread/INFO]: Time elapsed: 2490 ms
+[07:48:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:48:44] [Server thread/INFO]: Preparing spawn area: 0%
+[07:48:44] [Server thread/INFO]: Preparing spawn area: 0%
+[07:48:44] [Server thread/INFO]: Preparing spawn area: 0%
+[07:48:44] [Server thread/INFO]: Time elapsed: 1029 ms
+[07:48:44] [Server thread/INFO]: [SpigotPing] Enabling SpigotPing v2.6
+[07:48:44] [Server thread/INFO]: [SpigotPing] TabList is enabled, task added with a delay of 5 second/s.
+[07:48:44] [Server thread/INFO]: [HeadsPlus] Enabling HeadsPlus v7.0.3
+[07:48:44] [Server thread/WARN]: [HeadsPlus] Sellhead disabled due to Vault itself not being found. (Error code: 1)
+[07:48:45] [Server thread/INFO]: [HeadsPlus] Registered 418 heads.
+[07:48:45] [Server thread/INFO]: [HeadsPlus] Registered 3 masks.
+[07:48:46] [Server thread/INFO]: HeadsPlus »  HeadsPlus has been enabled!
+[07:48:46] [Server thread/INFO]:     __  __               __     ____  __                   _____
+[07:48:46] [Server thread/INFO]:    / / / /__  ____ _____/ /____/ __ \/ /_  _______   _   _/__  /
+[07:48:46] [Server thread/INFO]:   / /_/ / _ \/ __ `/ __  / ___/ /_/ / / / / / ___/  | | / / / / 
+[07:48:46] [Server thread/INFO]:  / __  /  __/ /_/ / /_/ /__  / ____/ / /_/ /__  /   | |/ / / /  
+[07:48:46] [Server thread/INFO]: /_/ /_/\___/\__,_/\__,_/____/_/   /_/\__,_/____/    |___/ /_/  
+[07:48:46] [Server thread/INFO]:                                                                 
+[07:48:46] [Server thread/INFO]: HeadsPlus 7.0.3 has been enabled successfully!
+[07:48:46] [Server thread/INFO]: 
+[07:48:46] [Server thread/INFO]: Running delayed init tasks
+[07:48:46] [Server thread/INFO]: Done (9.663s)! For help, type "help"
+[07:48:46] [Server thread/INFO]: Timings Reset
+[07:48:46] [Craft Scheduler Thread - 2 - HeadsPlus/INFO]: [HeadsPlus] Registered 1 rewards.
+[07:48:46] [Craft Scheduler Thread - 2 - HeadsPlus/INFO]: [HeadsPlus] Registered 36 levels.
+[07:48:46] [Server thread/WARN]: UUID of added entity already exists: EntityStrider['Strider'/138, uuid='70832126-1d21-4c57-b543-31d4ea98bf98', l='ServerLevel[world_nether]', x=-11.05, y=31.50, z=176.55, cpos=[-1, 11], tl=84263, v=false]
+[07:48:47] [Craft Scheduler Thread - 1 - HeadsPlus/INFO]: [HeadsPlus] HeadsPlus »  Plugin is up to date!
+[07:48:47] [Server thread/INFO]: [HeadsPlus] Avengers, assemble!
+[07:55:36] [User Authenticator #1/INFO]: UUID of player Naoblanc is cf0bc61f-7ebe-4c2d-8fd0-46df46be046b
+[07:55:36] [Server thread/INFO]: Naoblanc joined the game
+[07:55:36] [Server thread/INFO]: Naoblanc[/36.90.32.165:50016] logged in with entity id 173 at ([world]-554.136110143972, 72.0, 621.8631004071515)
+[07:56:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5105ms or 102 ticks behind
+[07:57:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 47779ms or 955 ticks behind
+[07:59:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5558ms or 111 ticks behind
+[07:59:36] [Server thread/WARN]: UUID of added entity already exists: EntityStrider['Strider'/1198, uuid='f6b81b21-9bd0-4f24-9f06-647578945514', l='ServerLevel[world_nether]', x=-177.81, y=31.50, z=9.48, cpos=[-12, 0], tl=253388, v=false]
+[08:00:16] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-145 (MC: 1.18.1) ---
+[08:00:19] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[08:00:20] [Paper Watchdog Thread/ERROR]: ------------------------------
+[08:00:20] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[08:01:15] [Paper Watchdog Thread/ERROR]: ------------------------------
+[08:01:19] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[08:03:03] [Server thread/INFO]: Naoblanc lost connection: Disconnected
+[08:07:54] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: RUNNABLE
+[08:08:09] [Paper Watchdog Thread/ERROR]: 	Stack:
