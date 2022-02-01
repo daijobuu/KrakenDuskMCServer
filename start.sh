@@ -1,5 +1,7 @@
 #!/bin/bash
 
+if [ -z "$STY" ]; then exec screen -dm -S MinecraftServer /bin/bash "$0"; fi
+
 JAR=server.jar
 MAXRAM=7168M
 MINRAM=1024M

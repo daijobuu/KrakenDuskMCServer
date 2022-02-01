@@ -1,0 +1,18 @@
+{
+  "Special message": "BEES",
+  "Locale": "en_us",
+  "HeadsPlus version": "7.0.4",
+  "Date": "01/27/2022 17:14:45",
+  "Has Vault hooked": false,
+  "Other Plugins": [
+    "SpigotPing-2.6 (1.14)",
+    "HeadsPlus-7.0.4 (1.13)"
+  ],
+  "Error Information": {
+    "is-skull": "true",
+    "action": "RIGHT_CLICK_BLOCK",
+    "Exception": [
+      "java.lang.NullPointerException: Cannot invoke \"com.mojang.authlib.GameProfile.getName()\" because \"profile\" is null\n\tat HeadsPlus-7.0.4.jar//io.github.thatsmusic99.headsplus.config.ConfigInteractions.getMessageForHead(ConfigInteractions.java:126)\n\tat HeadsPlus-7.0.4.jar//io.github.thatsmusic99.headsplus.listeners.HeadInteractListener.onEvent(HeadInteractListener.java:54)\n\tat HeadsPlus-7.0.4.jar//io.github.thatsmusic99.headsplus.listeners.HeadInteractListener.onEvent(HeadInteractListener.java:18)\n\tat HeadsPlus-7.0.4.jar//io.github.thatsmusic99.headsplus.util.events.HeadsPlusEventExecutor.execute(HeadsPlusEventExecutor.java:37)\n\tat co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80)\n\tat org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)\n\tat org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:628)\n\tat org.bukkit.craftbukkit.v1_18_R1.event.CraftEventFactory.callPlayerInteractEvent(CraftEventFactory.java:543)\n\tat net.minecraft.server.level.PlayerInteractManager.a(PlayerInteractManager.java:540)\n\tat net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1838)\n\tat net.minecraft.network.protocol.game.PacketPlayInUseItem.a(PacketPlayInUseItem.java:33)\n\tat net.minecraft.network.protocol.game.PacketPlayInUseItem.a(PacketPlayInUseItem.java:9)\n\tat net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$1(PlayerConnectionUtils.java:56)\n\tat net.minecraft.server.TickTask.run(TickTask.java:18)\n\tat net.minecraft.util.thread.IAsyncTaskHandler.c(IAsyncTaskHandler.java:149)\n\tat net.minecraft.util.thread.IAsyncTaskHandlerReentrant.c(IAsyncTaskHandlerReentrant.java:23)\n\tat net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1413)\n\tat net.minecraft.server.MinecraftServer.c(MinecraftServer.java:189)\n\tat net.minecraft.util.thread.IAsyncTaskHandler.y(IAsyncTaskHandler.java:122)\n\tat net.minecraft.server.MinecraftServer.bf(MinecraftServer.java:1391)\n\tat net.minecraft.server.MinecraftServer.y(MinecraftServer.java:1384)\n\tat net.minecraft.util.thread.IAsyncTaskHandler.bp(IAsyncTaskHandler.java:110)\n\tat net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1518)\n\tat net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1264)\n\tat net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)\n\tat java.base/java.lang.Thread.run(Thread.java:833)\n"
+    ]
+  }
+}

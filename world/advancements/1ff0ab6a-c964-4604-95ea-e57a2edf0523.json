@@ -521,6 +521,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/creeper_banner_pattern": {
+    "criteria": {
+      "has_creeper_head": "2022-01-22 21:42:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/lime_dye": {
     "criteria": {
       "has_green_dye": "2021-12-18 17:11:06 +0000"
@@ -818,6 +824,12 @@
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_gravel": "2021-12-12 18:51:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2022-01-22 22:16:02 +0000"
     },
     "done": true
   },
@@ -1127,6 +1139,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/jungle_pressure_plate": {
+    "criteria": {
+      "has_planks": "2022-01-22 22:16:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_wool": {
     "criteria": {
       "has_white_wool": "2021-12-12 19:09:05 +0000"
@@ -1265,6 +1283,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2022-01-22 21:17:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/acacia_wood": {
     "criteria": {
       "has_log": "2021-12-12 18:58:10 +0000"
@@ -1382,6 +1406,12 @@
   "minecraft:recipes/building_blocks/glowstone": {
     "criteria": {
       "has_glowstone_dust": "2021-12-25 16:47:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2022-01-22 21:17:21 +0000"
     },
     "done": true
   },
@@ -1664,9 +1694,11 @@
       "minecraft:sunflower_plains": "2021-12-25 16:11:58 +0000",
       "minecraft:birch_forest": "2021-12-17 22:31:36 +0000",
       "minecraft:windswept_hills": "2021-12-12 18:20:30 +0000",
+      "minecraft:bamboo_jungle": "2022-01-22 21:35:46 +0000",
       "minecraft:savanna_plateau": "2021-12-15 21:18:51 +0000",
       "minecraft:beach": "2021-12-20 18:30:16 +0000",
       "minecraft:dark_forest": "2021-12-12 18:43:01 +0000",
+      "minecraft:sparse_jungle": "2022-01-22 21:46:41 +0000",
       "minecraft:river": "2021-12-12 18:41:49 +0000",
       "minecraft:lukewarm_ocean": "2021-12-20 20:19:02 +0000",
       "minecraft:stony_shore": "2021-12-20 21:03:10 +0000",
@@ -1674,6 +1706,7 @@
       "minecraft:snowy_taiga": "2021-12-20 21:03:14 +0000",
       "minecraft:dripstone_caves": "2022-01-06 21:00:10 +0000",
       "minecraft:swamp": "2021-12-12 18:41:39 +0000",
+      "minecraft:grove": "2022-01-22 21:00:59 +0000",
       "minecraft:cold_ocean": "2022-01-01 19:23:49 +0000",
       "minecraft:forest": "2021-12-12 18:41:38 +0000",
       "minecraft:deep_cold_ocean": "2022-01-01 19:22:49 +0000",
@@ -1683,10 +1716,12 @@
       "minecraft:windswept_forest": "2021-12-12 18:22:05 +0000",
       "minecraft:deep_frozen_ocean": "2021-12-21 19:47:02 +0000",
       "minecraft:ocean": "2021-12-21 19:08:51 +0000",
+      "minecraft:jungle": "2022-01-22 21:17:10 +0000",
       "minecraft:old_growth_spruce_taiga": "2021-12-21 19:21:43 +0000",
       "minecraft:snowy_beach": "2021-12-20 21:03:21 +0000",
       "minecraft:deep_lukewarm_ocean": "2021-12-21 19:08:34 +0000",
       "minecraft:old_growth_birch_forest": "2022-01-02 19:04:18 +0000",
+      "minecraft:meadow": "2022-01-22 22:09:47 +0000",
       "minecraft:windswept_gravelly_hills": "2022-01-06 21:47:33 +0000",
       "minecraft:savanna": "2021-12-12 18:48:22 +0000",
       "minecraft:plains": "2021-12-12 18:32:54 +0000"
@@ -1927,6 +1962,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2022-01-22 21:25:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2021-12-25 16:00:56 +0000",
@@ -1938,6 +1979,12 @@
   "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
       "has_sandstone": "2021-12-15 21:41:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2022-01-22 21:17:30 +0000"
     },
     "done": true
   },
@@ -2028,6 +2075,12 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2021-12-12 18:43:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2022-01-22 21:17:30 +0000"
     },
     "done": true
   },
@@ -2391,6 +2444,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/jungle_trapdoor": {
+    "criteria": {
+      "has_planks": "2022-01-22 22:16:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_sandstone_slab_from_smooth_sandstone_stonecutting": {
     "criteria": {
       "has_smooth_sandstone": "2021-12-15 21:45:11 +0000"
@@ -2424,6 +2483,12 @@
   "minecraft:recipes/building_blocks/warped_hyphae": {
     "criteria": {
       "has_log": "2021-12-25 22:11:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2022-01-22 22:16:02 +0000"
     },
     "done": true
   },
@@ -3165,6 +3230,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2022-01-22 21:25:23 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/netherite_leggings_smithing": {
     "criteria": {
       "has_netherite_ingot": "2021-12-31 20:51:57 +0000"
@@ -3306,6 +3377,12 @@
   "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2021-12-31 21:01:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_planks": "2022-01-22 22:16:02 +0000"
     },
     "done": true
   },
@@ -3468,6 +3545,12 @@
   "minecraft:recipes/brewing/brewing_stand": {
     "criteria": {
       "has_blaze_rod": "2021-12-28 17:07:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2022-01-22 22:16:02 +0000"
     },
     "done": true
   },
@@ -3645,6 +3728,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2022-01-22 22:16:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2021-12-12 19:10:44 +0000"
@@ -3699,6 +3788,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2022-01-22 22:16:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_brick_stairs": {
     "criteria": {
       "has_nether_bricks": "2021-12-28 17:39:58 +0000"
@@ -3720,6 +3815,12 @@
   "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
     "criteria": {
       "has_warped_fungus": "2021-12-28 17:01:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2022-01-22 22:16:02 +0000"
     },
     "done": true
   },
