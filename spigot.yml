@@ -46,6 +46,7 @@ commands:
   - tellraw
 world-settings:
   default:
+    seed-stronghold: default
     below-zero-generation-in-existing-chunks: true
     verbose: false
     wither-spawn-sound-radius: 0
