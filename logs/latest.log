@@ -1,76 +1,92 @@
-[03:15:15] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[03:15:15] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
-[03:15:17] [Worker-Main-1/INFO]: Loaded 7 recipes
-[03:15:19] [Server thread/INFO]: Starting minecraft server version 1.18.1
-[03:15:19] [Server thread/WARN]: ****************************
-[03:15:19] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[03:15:19] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[03:15:19] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[03:15:19] [Server thread/WARN]: ****************************
-[03:15:19] [Server thread/INFO]: Loading properties
-[03:15:20] [Server thread/INFO]: This server is running Paper version git-Paper-167 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: feb72b8)
-[03:15:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:15:20] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:15:20] [Server thread/INFO]: Default game type: SURVIVAL
-[03:15:20] [Server thread/INFO]: Generating keypair
-[03:15:20] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:15:20] [Server thread/INFO]: Using epoll channel type
-[03:15:20] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[03:15:20] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[03:15:22] [Server thread/INFO]: [SpigotPing] Loading SpigotPing v2.6
-[03:15:22] [Server thread/INFO]: [HeadsPlus] Loading HeadsPlus v7.0.4
-[03:15:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:15:22] [Server thread/INFO]: Preparing level "world"
-[03:15:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:15:25] [Server thread/INFO]: Preparing spawn area: 0%
-[03:15:25] [Server thread/INFO]: Preparing spawn area: 0%
-[03:15:25] [Server thread/INFO]: Preparing spawn area: 0%
-[03:15:25] [Server thread/INFO]: Preparing spawn area: 0%
-[03:15:26] [Server thread/INFO]: Preparing spawn area: 0%
-[03:15:26] [Server thread/INFO]: Preparing spawn area: 0%
-[03:15:27] [Server thread/INFO]: Preparing spawn area: 0%
-[03:15:27] [Server thread/INFO]: Preparing spawn area: 0%
-[03:15:28] [Server thread/INFO]: Preparing spawn area: 0%
-[03:15:28] [Server thread/INFO]: Time elapsed: 4150 ms
-[03:15:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[03:15:28] [Server thread/INFO]: Preparing spawn area: 0%
-[03:15:28] [Server thread/INFO]: Preparing spawn area: 0%
-[03:15:29] [Server thread/INFO]: Preparing spawn area: 0%
-[03:15:29] [Server thread/INFO]: Preparing spawn area: 0%
-[03:15:30] [Server thread/INFO]: Preparing spawn area: 0%
-[03:15:30] [Server thread/INFO]: Preparing spawn area: 0%
-[03:15:31] [Server thread/INFO]: Preparing spawn area: 0%
-[03:15:31] [Server thread/INFO]: Preparing spawn area: 0%
-[03:15:32] [Server thread/INFO]: Time elapsed: 3709 ms
-[03:15:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[03:15:32] [Server thread/INFO]: Preparing spawn area: 0%
-[03:15:32] [Server thread/INFO]: Preparing spawn area: 0%
-[03:15:33] [Server thread/INFO]: Preparing spawn area: 0%
-[03:15:33] [Server thread/INFO]: Preparing spawn area: 0%
-[03:15:34] [Server thread/INFO]: Preparing spawn area: 0%
-[03:15:34] [Server thread/INFO]: Time elapsed: 2057 ms
-[03:15:34] [Server thread/INFO]: [SpigotPing] Enabling SpigotPing v2.6
-[03:15:34] [Server thread/INFO]: [SpigotPing] TabList is enabled, task added with a delay of 5 second/s.
-[03:15:34] [Server thread/INFO]: [HeadsPlus] Enabling HeadsPlus v7.0.4
-[03:15:34] [Server thread/WARN]: [HeadsPlus] Sellhead disabled due to Vault itself not being found. (Error code: 1)
-[03:15:36] [Server thread/INFO]: [HeadsPlus] Registered 418 heads.
-[03:15:36] [Server thread/INFO]: [HeadsPlus] Registered 3 masks.
-[03:15:36] [Server thread/INFO]: HeadsPlus »  HeadsPlus has been enabled!
-[03:15:36] [Server thread/INFO]:     __  __               __     ____  __                   _____
-[03:15:36] [Server thread/INFO]:    / / / /__  ____ _____/ /____/ __ \/ /_  _______   _   _/__  /
-[03:15:36] [Server thread/INFO]:   / /_/ / _ \/ __ `/ __  / ___/ /_/ / / / / / ___/  | | / / / / 
-[03:15:36] [Server thread/INFO]:  / __  /  __/ /_/ / /_/ /__  / ____/ / /_/ /__  /   | |/ / / /  
-[03:15:36] [Server thread/INFO]: /_/ /_/\___/\__,_/\__,_/____/_/   /_/\__,_/____/    |___/ /_/  
-[03:15:36] [Server thread/INFO]:                                                                 
-[03:15:36] [Server thread/INFO]: HeadsPlus 7.0.4 has been enabled successfully!
-[03:15:36] [Server thread/INFO]: 
-[03:15:36] [Server thread/INFO]: Running delayed init tasks
-[03:15:36] [Server thread/INFO]: Done (16.822s)! For help, type "help"
-[03:15:36] [Server thread/INFO]: Timings Reset
-[03:15:36] [Craft Scheduler Thread - 1 - HeadsPlus/INFO]: [HeadsPlus] Registered 1 rewards.
-[03:15:36] [Craft Scheduler Thread - 1 - HeadsPlus/INFO]: [HeadsPlus] Registered 36 levels.
-[03:15:37] [Craft Scheduler Thread - 3 - HeadsPlus/INFO]: [HeadsPlus] HeadsPlus »  Plugin is up to date!
-[03:15:37] [Server thread/INFO]: [HeadsPlus] Avengers, assemble!
-[03:16:01] [User Authenticator #1/INFO]: UUID of player KrakenDusk is 5037d84d-15a8-4701-b64a-922e82dd5fc8
-[03:16:02] [Server thread/INFO]: KrakenDusk joined the game
-[03:16:02] [Server thread/INFO]: KrakenDusk[/73.220.229.108:49362] logged in with entity id 181 at ([world]7791.8195203466175, 64.0, 542.7638053937719)
+[00:38:30] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:38:30] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[00:38:32] [Worker-Main-1/INFO]: Loaded 7 recipes
+[00:38:34] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[00:38:34] [Server thread/WARN]: ****************************
+[00:38:34] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[00:38:34] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[00:38:34] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[00:38:34] [Server thread/WARN]: ****************************
+[00:38:34] [Server thread/INFO]: Loading properties
+[00:38:35] [Server thread/INFO]: This server is running Paper version git-Paper-167 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT) (Git: feb72b8)
+[00:38:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:38:35] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:38:35] [Server thread/INFO]: Default game type: SURVIVAL
+[00:38:35] [Server thread/INFO]: Generating keypair
+[00:38:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:38:35] [Server thread/INFO]: Using epoll channel type
+[00:38:35] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[00:38:35] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[00:38:36] [Server thread/INFO]: [SpigotPing] Loading SpigotPing v2.6
+[00:38:36] [Server thread/INFO]: [HeadsPlus] Loading HeadsPlus v7.0.4
+[00:38:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:38:36] [Server thread/INFO]: Preparing level "world"
+[00:38:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:38:40] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:40] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:40] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:40] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:40] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:41] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:41] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:42] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:42] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:43] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:43] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:43] [Server thread/INFO]: Time elapsed: 5055 ms
+[00:38:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[00:38:44] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:44] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:44] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:45] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:45] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:46] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:46] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:47] [Server thread/INFO]: Time elapsed: 3342 ms
+[00:38:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[00:38:47] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:47] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:48] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:48] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:49] [Server thread/INFO]: Preparing spawn area: 0%
+[00:38:49] [Server thread/INFO]: Time elapsed: 2301 ms
+[00:38:49] [Server thread/INFO]: [SpigotPing] Enabling SpigotPing v2.6
+[00:38:49] [Server thread/INFO]: [SpigotPing] TabList is enabled, task added with a delay of 5 second/s.
+[00:38:49] [Server thread/INFO]: [HeadsPlus] Enabling HeadsPlus v7.0.4
+[00:38:49] [Server thread/WARN]: [HeadsPlus] Sellhead disabled due to Vault itself not being found. (Error code: 1)
+[00:38:51] [Server thread/INFO]: [HeadsPlus] Registered 418 heads.
+[00:38:51] [Server thread/INFO]: [HeadsPlus] Registered 3 masks.
+[00:38:51] [Server thread/INFO]: HeadsPlus »  HeadsPlus has been enabled!
+[00:38:51] [Server thread/INFO]:     __  __               __     ____  __                   _____
+[00:38:51] [Server thread/INFO]:    / / / /__  ____ _____/ /____/ __ \/ /_  _______   _   _/__  /
+[00:38:51] [Server thread/INFO]:   / /_/ / _ \/ __ `/ __  / ___/ /_/ / / / / / ___/  | | / / / / 
+[00:38:51] [Server thread/INFO]:  / __  /  __/ /_/ / /_/ /__  / ____/ / /_/ /__  /   | |/ / / /  
+[00:38:51] [Server thread/INFO]: /_/ /_/\___/\__,_/\__,_/____/_/   /_/\__,_/____/    |___/ /_/  
+[00:38:51] [Server thread/INFO]:                                                                 
+[00:38:51] [Server thread/INFO]: HeadsPlus 7.0.4 has been enabled successfully!
+[00:38:51] [Server thread/INFO]: 
+[00:38:51] [Server thread/INFO]: Running delayed init tasks
+[00:38:51] [Server thread/INFO]: Done (16.820s)! For help, type "help"
+[00:38:51] [Server thread/INFO]: Timings Reset
+[00:38:51] [Craft Scheduler Thread - 2 - HeadsPlus/INFO]: [HeadsPlus] Registered 1 rewards.
+[00:38:51] [Craft Scheduler Thread - 2 - HeadsPlus/INFO]: [HeadsPlus] Registered 36 levels.
+[00:38:52] [Craft Scheduler Thread - 1 - HeadsPlus/INFO]: [HeadsPlus] HeadsPlus »  Plugin is up to date!
+[00:38:53] [Server thread/INFO]: [HeadsPlus] Avengers, assemble!
+[04:50:53] [Server thread/INFO]: Stopping the server
+[04:50:53] [Server thread/INFO]: Stopping server
+[04:50:53] [Server thread/INFO]: [HeadsPlus] Disabling HeadsPlus v7.0.4
+[04:50:53] [Server thread/INFO]: [HeadsPlus] HeadsPlus »  HeadsPlus has been disabled!
+[04:50:53] [Server thread/INFO]: [SpigotPing] Disabling SpigotPing v2.6
+[04:50:53] [Server thread/INFO]: [SpigotPing] Cancelling tasks...
+[04:50:53] [Server thread/INFO]: Saving players
+[04:50:53] [Server thread/INFO]: Saving worlds
+[04:50:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:50:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:50:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:50:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:50:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:50:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:50:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:50:53] [Server thread/INFO]: Flushing Chunk IO
+[04:50:53] [Server thread/INFO]: Closing Thread Pool
+[04:50:53] [Server thread/INFO]: Closing Server
